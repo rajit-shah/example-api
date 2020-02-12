@@ -2,3 +2,7 @@ server:
   context-path: /
   port: 8080
   session.timeout: 30
+
+api.repository:
+  userUri: https://jsonplaceholder.typicode.com/users
+  postUri: https://jsonplaceholder.typicode.com/posts
